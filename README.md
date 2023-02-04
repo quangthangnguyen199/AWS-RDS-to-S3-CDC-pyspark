@@ -29,12 +29,10 @@ This project creates a small demo of CDC on AWS with components:
 - Create Lambda funtion with Python code (Code store in SourceCode folder)
 - Add trigger with Event type: s3:ObjectCreated:* 
 - Create IAM Role with AmazonS3FullAccess, CloudWatchFullAccess, AWSGlueConsoleFullAccess and grant to Lambda function
-### 1/ Create AWS Glue job 
+### 5/ Create AWS Glue job 
 - Create AWS Glue job with Pyspark code (Code store in SourceCode folder)
 - Create IAM Role with AmazonS3FullAccess, CloudWatchFullAccess and grant to Glue job
 - Create Invoke from Lambda funtion to Glue job to run Glue job when DMS create new file to S3 Target Bucket and trigg Lambda funtion
-### 1/ Test Data Pipeline
-- Full load data
- + aaa
-- CDC
- + ccc
+### 6/ Test Data Pipeline
+- Full load data: Create schema, table and Insert dump data (Dump file in DumpData folder). Run Database migration task, check S3 Target Bucket (DMS target Endpoint) and S3 Output Bucket (Glue job Output)
+- CDC : excute change data script (Dump file in DumpData folder), check S3 Target Bucket (DMS target Endpoint) and S3 Output Bucket (Glue job Output)
