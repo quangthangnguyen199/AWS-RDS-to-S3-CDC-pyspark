@@ -1,11 +1,12 @@
 # Demo AWS CDC Project
 
 This project creates a small demo of CDC on AWS with components:
-- AWS RDS : CDC data source
-- AWS DMS : CDC tool
-- AWS S3 : CDC Target and Glue job Output
-- AWS Lambda : Trigger to AWS Glue
-- AWS Glue : process input data from S3 to Output using pyspark
+- RDS : CDC data source
+- DMS : CDC tool
+- S3 : CDC Target and Glue job Output
+- Lambda : Trigger to AWS Glue
+- Glue : process input data from S3 to Output using pyspark
+- Cloudwatch : logging and debug your code
 
 
 ## Data Pipeline
