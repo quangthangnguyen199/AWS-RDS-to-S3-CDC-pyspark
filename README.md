@@ -10,7 +10,8 @@ This project creates a small demo of CDC on AWS with components:
 
 ## Data Pipeline
 
-![image](https://user-images.githubusercontent.com/124248166/216757941-12ac113d-230f-4b31-84a3-349acb2e8657.png)
+![image](https://user-images.githubusercontent.com/124248166/216770282-9e605aff-0f11-4503-bbad-c5ef5f3dff65.png)
+
 
 
 
