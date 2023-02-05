@@ -17,7 +17,7 @@ This project creates a small demo of CDC on AWS with components:
 
 
 
-## Step
+## Build Data pipeline
 
 ### 1/ Create AWS RDS Instance (MySQL)
 ### 2/ Create AWS S3 Buckets
